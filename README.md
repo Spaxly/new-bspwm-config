@@ -19,6 +19,8 @@
     Shell: ZSH & Fish
   <br><br>
     Compositor: Picom-IBhagwan-Git
+  <br><br>
+    Audio Visualizer: GLava
 </h2>
 
 ## Credits
