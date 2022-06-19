@@ -3,6 +3,7 @@ rxfetch
 # path
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.config/bspwm/scripts:$PATH"
 
 # GPG tty.
 export GPG_TTY="${TTY:-$(tty)}"
