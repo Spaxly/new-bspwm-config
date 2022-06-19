@@ -6,8 +6,13 @@
 super + shift + Return
 	alacritty
 
+# float terminal
 super + Return
 	~/.config/bspwm/scripts/bspterm -f
+
+# Open ranger floating
+super + r
+	~/.config/bspwm/scripts/bspterm -r
 
 # program launcher
 super + d

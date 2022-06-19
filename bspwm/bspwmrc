@@ -7,12 +7,15 @@ nitrogen --restore &
 dunst -config ~/.config/bspwm/dunst/dunstrc & 
 xsetroot -cursor_name left_ptr &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+glava --desktop &
 
 # To float Alacritty when specified
 declare -a floating=(alacritty-float Pcmanfm Thunar Onboard Yad 'Firefox:Places' \
 Viewnior feh Nm-connection-editor)
 for i in ${floating[@]}; do
    bspc rule -a $i state=floating follow=on focus=on; done
+
+bspc rule -a GLava state=floating
 
 bspc monitor -d 1 2 3 4 5
 

@@ -7,8 +7,8 @@
 
 if [ "$1" == "-f" ]; then
 	alacritty --class 'alacritty-float,alacritty-float'
-elif [ "$1" == "-s" ]; then
-	alacritty --class 'Fullscreen,Fullscreen' -o window.startup_mode=fullscreen window.padding.x=30 window.padding.y=30 
+elif [ "$1" == "-r" ]; then
+	alacritty --class 'alacritty-float,alacritty-float' -e $SHELL ranger
 else
-	alacritty
+	alacritty --class 'alacritty-float,alacritty-float'
 fi
