@@ -8,7 +8,7 @@
 if [ "$1" == "-f" ]; then
 	alacritty --class 'alacritty-float,alacritty-float'
 elif [ "$1" == "-r" ]; then
-	alacritty --class 'alacritty-float,alacritty-float' -e $SHELL ranger
+	alacritty --class 'alacritty-float,alacritty-float' -e ranger
 else
 	alacritty --class 'alacritty-float,alacritty-float'
 fi

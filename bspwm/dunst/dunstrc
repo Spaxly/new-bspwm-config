@@ -1,16 +1,17 @@
 [global]
-frame_color = "#96CDFB"
+frame_color = "#1E66F5"
 separator_color= frame
 
 [urgency_low]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
+background = "#EFF1F5"
+foreground = "#4C4F69"
 
 [urgency_normal]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
+background = "#EFF1F5"
+foreground = "#4C4F69"
 
 [urgency_critical]
-background = "#1E1E2E"
-foreground = "#D9E0EE"
-frame_color = "#F8BD96"
+background = "#EFF1F5"
+foreground = "#4C4F69"
+frame_color = "#FE640B"
+

@@ -33,6 +33,9 @@ super + shift + p
 
 super + shift + s
     flameshot gui
+
+alt + F2
+  killall picom
     
 #
 # bspwm hotkeys
