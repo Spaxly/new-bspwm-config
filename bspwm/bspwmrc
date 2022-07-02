@@ -19,6 +19,7 @@ for i in ${floating[@]}; do
 
 bspc rule -a GLava state=floating
 bspc rule -a ranger state=floating
+bspc rule -a jgmenu state=floating
 
 bspc monitor -d 1 2 3 4 5
 

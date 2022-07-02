@@ -73,7 +73,7 @@ selection:
   save_to_clipboard: true
 
 shell:
-  program: /bin/zsh
+  program: /bin/fish
 
 cursor:
   style: Underline
