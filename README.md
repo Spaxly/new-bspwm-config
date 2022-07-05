@@ -18,14 +18,14 @@ File Manager: Nautilus
   <br><br>
     Shell: ZSH & Fish
   <br><br>
-    Compositor: Picom-IBhagwan-Git
+    Compositor: Picom-Animations-Git
   <br><br>
     Audio Visualizer: GLava
 
 # Install
 Assuming you have yay as your AUR helper:
 <br>
-<code>yay -S git neovim nautilus rofi alacritty rxfetch dunst zsh fish picom-animations-git glava starship zsh-autosuggestions zsh-completions zsh-syntax-highlighting lxappearance polybar bspwm sxhkd nitrogen qt5ct nerd-fonts-source-code-pro nerd-fonts-jetbrains-mono</code>
+<code>yay -S git neovim nautilus zafiro-icon-theme rofi alacritty rxfetch dunst appimagelauncher zsh fish picom-animations-git glava starship zsh-autosuggestions zsh-completions zsh-syntax-highlighting lxappearance polybar bspwm sxhkd nitrogen qt5ct nerd-fonts-source-code-pro nerd-fonts-jetbrains-mono</code>
 <br>
 <br>
 Installing the dotfiles:

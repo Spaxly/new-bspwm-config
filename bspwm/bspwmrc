@@ -10,6 +10,7 @@ xsetroot -cursor_name left_ptr &
 glava --desktop &
 spotifyd --no-daemon --config-path .config/spotifyd/spotifyd.conf &
 plank &
+appimagelauncherd &
 
 # To float Alacritty when specified
 declare -a floating=(alacritty-float Pcmanfm Thunar Onboard Yad 'Firefox:Places' \
