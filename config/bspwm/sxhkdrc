@@ -6,9 +6,17 @@
 super + shift + Return
 	alacritty
 
+# float terminal
+super + Return
+	~/.config/bspwm/scripts/bspterm -f
+
+# Open ranger floating
+super + r
+	~/.config/bspwm/scripts/bspterm -r
+
 # program launcher
 super + d
-    ~/.config/rofi/launchers/colorful/launcher.sh
+    ~/.config/bspwm/rofi/bin/launcher
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -21,10 +29,16 @@ super + shift + f
     firefox
 
 super + shift + p
-    ~/.config/rofi/powermenu/powermenu.sh
+    ~/.config/bspwm/rofi/bin/powermenu
 
 super + shift + s
     flameshot gui
+
+alt + F2
+  killall picom
+
+~button3
+	bspc query -D -d .focused.!occupied && echo -e "$(cat ~/.config/bspwm/jgmenu/menu.txt)" | jgmenu --simple
     
 #
 # bspwm hotkeys
